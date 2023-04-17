@@ -11,7 +11,9 @@ GPACalculator::GPACalculator()
 
 float GPACalculator::GPACalc(float grade1, float grade2, float grade3, float grade4, float grade5)
 {
-	return 0.0f;
+	float total = grade1 + grade2 + grade3 + grade4 + grade5;
+
+	return total / 5;
 }
 
 //this should be a void but I couldn't figure out how to test what the console outputs so it returns a string for its respose
@@ -19,7 +21,11 @@ float GPACalculator::GPACalc(float grade1, float grade2, float grade3, float gra
 //something like “They’re great” or something funny/snarky if the teacher is known and “I haven't had them before” for teacher inputs we don't have a specific thing for
 string GPACalculator::teacherResponse(string teacherName)
 {
-	return string();
+	string response = "";
+	if (teacherName == "Brian Hall") {
+		response = "He's alright";
+	}
+	return response;
 }
 
 // maybe make these messages more encouraging that way you 

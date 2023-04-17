@@ -3,12 +3,17 @@
 D:\Coding\CSI-330 (Methodologies)\GPACalculator\GPACalculator\test.cpp(10,20): warning C4305: 'initializing': truncation from 'double' to 'float'
 D:\Coding\CSI-330 (Methodologies)\GPACalculator\GPACalculator\test.cpp(11,20): warning C4305: 'initializing': truncation from 'double' to 'float'
 D:\Coding\CSI-330 (Methodologies)\GPACalculator\GPACalculator\test.cpp(12,20): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\Coding\CSI-330 (Methodologies)\GPACalculator\GPACalculator\test.cpp(28,2): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Coding\CSI-330 (Methodologies)\GPACalculator\GPACalculator\test.cpp(29,2): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Coding\CSI-330 (Methodologies)\GPACalculator\GPACalculator\test.cpp(15,2): warning C4305: 'argument': truncation from 'double' to 'RawType'
+          with
+          [
+              RawType=float
+          ]
 D:\Coding\CSI-330 (Methodologies)\GPACalculator\GPACalculator\test.cpp(30,2): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Coding\CSI-330 (Methodologies)\GPACalculator\GPACalculator\test.cpp(31,2): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Coding\CSI-330 (Methodologies)\GPACalculator\GPACalculator\test.cpp(38,2): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Coding\CSI-330 (Methodologies)\GPACalculator\GPACalculator\test.cpp(33,2): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Coding\CSI-330 (Methodologies)\GPACalculator\GPACalculator\test.cpp(36,2): warning C4305: 'argument': truncation from 'double' to 'float'
 D:\Coding\CSI-330 (Methodologies)\GPACalculator\GPACalculator\test.cpp(39,2): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Coding\CSI-330 (Methodologies)\GPACalculator\GPACalculator\test.cpp(40,2): warning C4305: 'argument': truncation from 'double' to 'float'
-D:\Coding\CSI-330 (Methodologies)\GPACalculator\GPACalculator\test.cpp(41,2): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Coding\CSI-330 (Methodologies)\GPACalculator\GPACalculator\test.cpp(51,2): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Coding\CSI-330 (Methodologies)\GPACalculator\GPACalculator\test.cpp(55,2): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Coding\CSI-330 (Methodologies)\GPACalculator\GPACalculator\test.cpp(59,2): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Coding\CSI-330 (Methodologies)\GPACalculator\GPACalculator\test.cpp(63,2): warning C4305: 'argument': truncation from 'double' to 'float'
   GPACalculator.vcxproj -> D:\Coding\CSI-330 (Methodologies)\GPACalculator\x64\Debug\GPACalculator.exe
