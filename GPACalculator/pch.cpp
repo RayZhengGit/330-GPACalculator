@@ -4,6 +4,7 @@
 
 #include "pch.h"
 
+
 GPACalculator::GPACalculator()
 {
 	isBrianMode = false;
@@ -17,8 +18,8 @@ float GPACalculator::GPACalc(float grade1, float grade2, float grade3, float gra
 }
 
 //this should be a void but I couldn't figure out how to test what the console outputs so it returns a string for its respose
-//this function should  Ask who the userís favorite teacher is and print a responce to what they say
-//something like ìTheyíre greatî or something funny/snarky if the teacher is known and ìI haven't had them beforeî for teacher inputs we don't have a specific thing for
+//this function should  Ask who the user‚Äôs favorite teacher is and print a responce to what they say
+//something like ‚ÄúThey‚Äôre great‚Äù or something funny/snarky if the teacher is known and ‚ÄúI haven't had them before‚Äù for teacher inputs we don't have a specific thing for
 string GPACalculator::teacherResponse(string teacherName)
 {
 	string response = "";
@@ -32,7 +33,48 @@ string GPACalculator::teacherResponse(string teacherName)
 // have more material to work with in "Brian Mode"
 string GPACalculator::respondToGPA(float gpa)
 {
-	return string();
+	cout << gpa << "\n";
+	if (getIsBrianMode()){
+		if (gpa == 4.0) {
+			return("Wow, you must be a genius or whater!");
+		}
+		else if (gpa <= 3.9 && gpa >= 3.0) {
+			return("Excellent work, overachiever!");
+		}
+		else if (gpa <= 2.9 && gpa >= 2.0) {
+			return("Good job, but let's be honest, we both know you can do better.");
+		}
+		else if (gpa <= 1.9 && gpa >= 1.0) {
+			return("Looks like you've been enjoying college life a little too much.");
+		}
+		else if (gpa <= 0.9 && gpa > 0) {
+			return("You never go to class what did you expect?");
+		}
+		else if (gpa == 0) {
+			return("Why are you still here?");
+		}
+	}
+	else {
+		if (gpa == 4.0) {
+			return("A PERFECT GPA!!!!");
+		}
+		else if (gpa <= 3.9 && gpa >= 3.0) {
+			return("Excellent! You have a GPA in the A range.");
+		}
+		else if (gpa <= 2.9 && gpa >= 2.0 ) {
+			return("Good job! You have a GPA in the B range.");
+		}
+		else if (gpa <= 1.9 && gpa >= 1.0) {
+			return("You have a GPA in the C range. Keep working hard!");
+		}
+		else if (gpa <= 0.9 && gpa > 0) {
+			return("Your GPA is in the D range. You may need to improve.");
+		}
+		else if (gpa == 0) {
+			return("You have a failing GPA. Please see your academic advisor.");
+		}
+	}
+	return("OUT OF RANGE");
 }
 
 // change the message being printed from respondToGPA 
@@ -40,7 +82,6 @@ string GPACalculator::respondToGPA(float gpa)
 // you can change the function signiture to whatever would work best
 void GPACalculator::changeBrianMode()
 {
-
+	isBrianMode = !isBrianMode;
 }
-
 
